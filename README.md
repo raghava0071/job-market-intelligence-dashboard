@@ -14,3 +14,20 @@ An intelligent, real-time dashboard that scrapes job listings, extracts trending
 
 🔄 Auto Refresh Capability – Design supports weekly data refresh and future automation.
 
+# 🚀 Quick Start #
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/job-intel-dashboard.git
+cd job-intel-dashboard
+
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Streamlit dashboard
+streamlit run app.py
