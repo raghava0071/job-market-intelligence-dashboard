@@ -31,3 +31,28 @@ pip install -r requirements.txt
 
 # Launch Streamlit dashboard
 streamlit run app.py
+
+💬 Sample Outputs
+📂 Files Generated:
+
+raw_jobs.csv
+
+cleaned_jobs.csv
+
+clustered_jobs.csv
+
+🎯 NLP Output:
+
+Extracted top 50 trending skills
+
+Mapped job roles to clusters
+
+Word clouds and bar charts for skill demand
+
+📈 Dashboard Filters:
+
+Job Cluster
+
+Location
+
+Keyword (Skill)
