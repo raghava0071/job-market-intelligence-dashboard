@@ -56,3 +56,77 @@ Job Cluster
 Location
 
 Keyword (Skill)
+
+🧠 Architecture
+flowchart TD
+    A[Job Scraper] --> B[Cleaner & Preprocessor]
+    B --> C[NLP Skill Extractor]
+    C --> D[Clusterer (KMeans)]
+    D --> E[Dashboard (Streamlit)]
+    E --> F[User Filters & Charts]
+
+🔧 Tech Stack
+
+Python – Data processing, NLP, and backend logic
+
+BeautifulSoup – Web scraping
+
+Pandas / NumPy – Data cleaning and transformation
+
+scikit-learn – Clustering (KMeans)
+
+Matplotlib / WordCloud – Visualizations
+
+Streamlit – Dashboard interface
+
+🎓 Ideal For
+
+Data Science Portfolio Projects
+
+Skill Trend Monitoring
+
+Job Market Research
+
+Entry-level & OPT candidates seeking visibility
+
+🙌 Future Enhancements
+
+✅ Automate weekly refresh via GitHub Actions or cron
+
+✅ Add resume matching using cosine similarity
+
+✅ Enable login & saved filter options
+
+✅ Public deployment via Streamlit Cloud
+
+🧑‍💻 Author
+
+Raghavendra Karanam
+📍 Delray Beach, FL
+📧 raghavendrakaranam30@gmail.com
+🔗 LinkedIn | GitHub
+
+
+---
+
+## 📦 Want the Graphs & Images?
+
+Once you're done rebuilding the dashboard locally:
+
+1. Take screenshots of:
+   - Skill frequency bar chart
+   - Word cloud
+   - Filtered job listings table
+   - Cluster distribution chart
+
+2. Save them as:
+   - `skills_bar_chart.png`
+   - `wordcloud.png`
+   - `cluster_counts.png`
+   - `dashboard_demo.png`
+
+3. Use these in your LinkedIn post and also embed them in the `README.md` using:
+
+```markdown
+![Skill Chart](images/skills_bar_chart.png)
+![Word Cloud](images/wordcloud.png)
