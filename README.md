@@ -58,11 +58,11 @@ streamlit run app.py
 
 ```mermaid
 flowchart TD
-    A[Job Scraper] --> B[Cleaner & Preprocessor]
+    A[Job Scraper] --> B[Cleaner and Preprocessor]
     B --> C[NLP Skill Extractor]
-    C --> D[Clusterer (KMeans)]
-    D --> E[Dashboard (Streamlit)]
-    E --> F[User Filters & Charts]
+    C --> D[Clusterer - KMeans]
+    D --> E[Streamlit Dashboard]
+    E --> F[User Filters and Charts]
 ```
 
 ---
