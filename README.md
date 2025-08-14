@@ -31,8 +31,88 @@ pip install -r requirements.txt
 
 # Launch the Streamlit dashboard
 streamlit run app.py
+```
 
 ---
 
-# 💬 Sample Outputs
-## 📂 Files Generated
+## 💬 Sample Outputs
+
+### 📂 Files Generated
+- `raw_jobs.csv`
+- `cleaned_jobs.csv`
+- `clustered_jobs.csv`
+
+### 🎯 NLP Results
+- Top trending skills extracted from job descriptions
+- Job titles grouped into meaningful clusters
+- Visualized word clouds and skill frequency charts
+
+### 📈 Dashboard Filters
+- Job Role Cluster
+- Location
+- Skill Keyword
+
+---
+
+## 🧠 System Architecture
+
+```mermaid
+flowchart TD
+    A[Job Scraper] --> B[Cleaner & Preprocessor]
+    B --> C[NLP Skill Extractor]
+    C --> D[Clusterer (KMeans)]
+    D --> E[Dashboard (Streamlit)]
+    E --> F[User Filters & Charts]
+```
+
+---
+
+## 🔧 Tech Stack
+
+- **Python** – Core programming and scripting
+- **BeautifulSoup** – HTML parsing and web scraping
+- **Pandas / NumPy** – Data wrangling and preprocessing
+- **scikit-learn** – Machine learning (KMeans clustering)
+- **Matplotlib / WordCloud** – Visualizations and skill clouds
+- **Streamlit** – Interactive dashboard and user interface
+
+---
+
+## 📷 Visual Samples (To Be Added)
+
+Add these screenshots under the `/images/` folder once available:
+
+```markdown
+![Cluster Pie Chart](images/cluster_counts.png)
+![Skill Frequency Chart](images/skills_bar_chart.png)
+![Word Cloud](images/wordcloud.png)
+![Streamlit Dashboard](images/dashboard_demo.png)
+```
+
+---
+
+## 🎓 Ideal Use Cases
+
+- 📘 Portfolio Projects for Data Science & Analytics
+- 📈 Job Market Research and Skill Trends Monitoring
+- 🎯 Entry-Level & OPT Candidates Showcasing Real Projects
+
+---
+
+## 🙌 Future Enhancements
+
+- ✅ Automate weekly refresh via GitHub Actions or cron
+- ✅ Add resume matching using cosine similarity
+- ✅ Enable login & saved filter options
+- ✅ Public deployment via Streamlit Cloud
+
+---
+
+## 🧑‍💻 Author
+
+**Raghavendra Karanam**  
+📍 Delray Beach, FL  
+📧 raghavendrakaranam30@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/raghavendrakaranam) | [GitHub](https://github.com/raghava0071)
+
+> This project is in active development. Contributions, feedback, and ideas are always welcome!
