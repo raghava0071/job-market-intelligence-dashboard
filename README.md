@@ -31,5 +31,8 @@ pip install -r requirements.txt
 
 # Launch the Streamlit dashboard
 streamlit run app.py
+
+---
+
 # 💬 Sample Outputs
 ## 📂 Files Generated
