@@ -83,7 +83,7 @@ flowchart TD
 Add these screenshots under the `/images/` folder once available:
 
 ```markdown
-![Cluster Pie Chart](images/cluster_counts.png)
+[![Cluster Pie Chart](cluster_counts.png)](https://github.com/raghava0071/job-market-intelligence-dashboard/blob/main/cluster_counts.png)
 ![Skill Frequency Chart](images/skills_bar_chart.png)
 ![Word Cloud](images/wordcloud.png)
 ![Streamlit Dashboard](images/dashboard_demo.png)
